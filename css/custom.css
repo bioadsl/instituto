@@ -1,0 +1,25 @@
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none !important;
+}
+
+.navbar .navbar-collapse {
+  text-align: center;
+}
+
+fieldset {
+  margin: 1% auto;
+}
+table {
+  margin-top: 20px;
+}
+.box-mensagem-crud {
+  margin-top: 10px;
+}
+.msg-erro {
+  color: red;
+}
+
+#img {
+  border-radius: 0px;
+}

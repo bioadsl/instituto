@@ -1,0 +1,28 @@
+ O volume na unidade C n∆o tem nome.
+ O N£mero de SÇrie do Volume Ç AC76-C715
+
+ Pasta de C:\xampp\htdocs\scl\img\bg
+
+15/05/2022  13:00    <DIR>          .
+15/05/2022  13:00    <DIR>          ..
+15/05/2022  12:45           459.942 camping-01.jpg
+15/05/2022  12:45           203.805 camping-02.jpg
+15/05/2022  12:45           358.807 camping-03.jpg
+15/05/2022  12:50           304.872 camping-04.jpg
+15/05/2022  12:50           229.928 camping-05.jpg
+15/05/2022  12:50           334.117 camping-06.jpg
+15/05/2022  12:50           327.603 camping-07.jpg
+15/05/2022  12:46           746.496 camping-08.jpg
+15/05/2022  12:50           315.254 camping-09.jpg
+15/05/2022  12:50           399.113 camping-10.jpg
+15/05/2022  12:49           342.634 camping-11.jpg
+15/05/2022  12:46           505.413 camping-12.jpg
+15/05/2022  12:46           803.849 camping-13.jpg
+15/05/2022  12:45           697.916 camping-14.jpg
+15/05/2022  12:45           734.926 camping-15.jpg
+15/05/2022  12:46           268.913 camping-16.jpg
+15/05/2022  12:45           365.709 camping-17.jpg
+15/05/2022  12:45           329.753 camping-18.jpg
+15/05/2022  13:00                 0 lst.txt
+              19 arquivo(s)      7.729.050 bytes
+               2 pasta(s)   15.588.401.152 bytes dispon°veis
