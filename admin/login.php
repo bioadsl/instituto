@@ -1,17 +1,17 @@
 <?php
 
-require_once('admin/class/db.class.php');
-require_once('admin/class/valida.class.php');
-require_once('admin/class/usuario.class.php');
+require_once('class/db.class.php');
+require_once('class/valida.class.php');
+require_once('class/usuario.class.php');
 
 if (($_SERVER['REQUEST_METHOD'] == 'POST')) {
     $usuario = new usuario();
     $usuario->validaLogin($_POST);
     if(@$_SESSION['logado']){
         if(@$_SESSION['idusuario'] === '1') {
-            header ('location: admin/admin/home.php');
+            header ('location: index.php?pagina=consulta');
         } else {
-            header ('location: ../admin/login.php');
+            header ('location: index.php?pagina=home');
         }
     }
     else {
@@ -43,13 +43,13 @@ if (($_SERVER['REQUEST_METHOD'] == 'POST')) {
 
 
 
-        <form class="pure-form pure-form-stacked" method="post" action="admin/home.php"  >
-        <!---->
+        <form class="pure-form pure-form-stacked" method="post"  >
+        <!--action="index.php?pagina=consulta"-->
             <fieldset>
 
                 <div align="center">
                 <div class="col" style="margin-top:30px;">
-                    <img src="admin/img/instituto.png" width="30%" height="" alt="Instagram" style=" margin-top: 10px;">    
+                    <img src="img/instituto.png" width="30%" height="" alt="Instagram" style=" margin-top: 10px;">    
                 </div>
                 <div class="row"  style="width: 250px;">
                 <h1>Login</h1>
@@ -65,11 +65,11 @@ if (($_SERVER['REQUEST_METHOD'] == 'POST')) {
                         <input id="cookies" name="cookies" type="checkbox" checked> Mantenha-me conectado
                     </label>
                     <div class='col-md-12' style="margin-top: 1pt;">                
-                        <button type="button" class="btn btn-default btn-sm"><a href='admin/admin/home.php'>Novo por aqui? Cadastre-se já!</a></button>
+                        <button type="button" class="btn btn-default btn-sm"><a href='index.php?pagina=cadastro_publico'>Novo por aqui? Cadastre-se já!</a></button>
                     </div>
                     <div> </div>
                     <div class='col-md-12'  style="margin-top: 10pt;">
-                        <button type="button" class="btn btn-danger btn-sm"><a href='../admin/login.php'></a>Voltar</button>
+                        <button type="button" class="btn btn-danger btn-sm"><a href='index.php'></a>Voltar</button>
                         <button type="submit" class="btn btn-primary btn-sm " >Entrar</button>
                     </div>
                 </div>
